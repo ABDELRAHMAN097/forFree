@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Salsa&display=swap');
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(12, 12, 34);
+    justify-content: center;
+    align-items: center;
+}
+
+.contaner{
+    padding: 1px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.box{
+    text-align: center;
+    width: 200px;
+    height: 340px;
+    align-items: center;
+    border-radius: 18px;
+    margin: 5px;
+    background-color: rgba(208, 217, 243, 0.062);
+    color: rgb(223, 221, 221);
+    box-shadow: 5px 5px 50px rgb(141, 140, 140);}
+.box img{
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    margin: 20px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    align-items: center;
+}
+/* .time{
+    font-size: 40px;
+    margin: 40px;
+    background-color: rgba(12, 250, 4, 0.295);
+    border-radius: 10px;
+} */
