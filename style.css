@@ -31,6 +31,9 @@ body{
     width: 200px;
     height: 240px;
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-clip: inherit;
 }
 .title{
     text-align: center;
